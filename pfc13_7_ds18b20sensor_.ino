@@ -13,10 +13,6 @@ unsigned long prev_time = 0;
 
 WiFiServer server(80);
 
-int fanval = LOW;
-int pumpval = LOW;
-int lightval = LOW;
-int tmp = 24;
 float watertmp[50];
 int i=0;
 
